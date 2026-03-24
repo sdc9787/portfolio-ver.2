@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { ExternalLink, Github, X, CheckCircle2, AlertCircle, Lightbulb } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn, resolvePath } from "@/lib/utils";
 
 interface ProjectCardProps {
   project: any;
@@ -20,7 +20,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <div className="aspect-video bg-slate-700 relative overflow-hidden">
           {project.imgUrl && project.img ? (
             <img
-              src={`/project-img/${project.imgUrl}/${project.img}.webp`}
+              src={resolvePath(`/project-img/${project.imgUrl}/${project.img}.webp`)}
               alt={project.title}
               className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               referrerPolicy="no-referrer"
@@ -50,7 +50,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             {project.skills.Frontend?.slice(0, 3).map((s: any) => (
               <span key={s.name} className="flex items-center gap-1.5 text-[10px] px-2 py-1 bg-slate-700 text-slate-300 rounded">
                 {s.img && (
-                  <img src={s.img} alt="" className="w-3 h-3 object-contain" referrerPolicy="no-referrer" />
+                  <img src={resolvePath(s.img)} alt="" className="w-3 h-3 object-contain" referrerPolicy="no-referrer" />
                 )}
                 {s.name}
               </span>
@@ -157,7 +157,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
                           {Object.values(project.skills).flat().map((skill: any, i: number) => (
                             <div key={i} className="flex items-center gap-2 px-3 py-2 bg-slate-800/50 border border-slate-700/50 rounded-xl text-slate-200 text-xs hover:border-emerald-500/30 transition-colors">
                               {skill.img && (
-                                <img src={skill.img} alt="" className="w-4 h-4 object-contain opacity-80" referrerPolicy="no-referrer" />
+                                <img src={resolvePath(skill.img)} alt="" className="w-4 h-4 object-contain opacity-80" referrerPolicy="no-referrer" />
                               )}
                               <span>{skill.name}</span>
                             </div>
@@ -251,7 +251,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
                             project.isVertical ? "aspect-[9/16]" : "aspect-video"
                           )}>
                             <img
-                              src={`/project-img/${project.imgUrl}/${imgNum}.webp`}
+                              src={resolvePath(`/project-img/${project.imgUrl}/${imgNum}.webp`)}
                               alt={`${project.title} screenshot ${imgNum}`}
                               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                               referrerPolicy="no-referrer"
