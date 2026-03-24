@@ -12,12 +12,14 @@ export function cn(...inputs: ClassValue[]) {
  */
 export function resolvePath(path: string) {
   if (!path) return "";
-  if (path.startsWith("/")) {
-    // import.meta.env.BASE_URL is "/" by default, but can be set in vite.config.ts
-    const base = import.meta.env.BASE_URL;
-    // Ensure base ends with / and path doesn't start with / for joining
-    const normalizedBase = base.endsWith("/") ? base : `${base}/`;
-    return `${normalizedBase}${path.slice(1)}`;
-  }
-  return path;
+  const base = import.meta.env.BASE_URL || "/";
+  
+  // If base is just "/", we don't need to do anything special for absolute paths
+  if (base === "/") return path;
+
+  // For other base paths, ensure we don't have double slashes
+  const normalizedBase = base.endsWith("/") ? base.slice(0, -1) : base;
+  const normalizedPath = path.startsWith("/") ? path : `/${path}`;
+  
+  return `${normalizedBase}${normalizedPath}`;
 }

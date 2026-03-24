@@ -24,10 +24,6 @@ export default function ProjectCard({ project }: ProjectCardProps) {
               alt={project.title}
               className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               referrerPolicy="no-referrer"
-              onError={(e) => {
-                // If image fails to load, hide it and show the text fallback
-                (e.target as HTMLImageElement).style.display = 'none';
-              }}
             />
           ) : null}
           <div className="absolute inset-0 flex items-center justify-center text-slate-500 font-bold text-2xl uppercase tracking-tighter opacity-20 group-hover:scale-110 transition-transform">
