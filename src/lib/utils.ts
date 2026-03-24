@@ -12,14 +12,11 @@ export function cn(...inputs: ClassValue[]) {
  */
 export function resolvePath(path: string) {
   if (!path) return "";
+  if (path.startsWith("http")) return path;
+  
   const base = import.meta.env.BASE_URL || "/";
+  const normalizedBase = base.endsWith("/") ? base : `${base}/`;
+  const normalizedPath = path.startsWith("/") ? path.slice(1) : path;
   
-  // If base is just "/", we don't need to do anything special for absolute paths
-  if (base === "/") return path;
-
-  // For other base paths, ensure we don't have double slashes
-  const normalizedBase = base.endsWith("/") ? base.slice(0, -1) : base;
-  const normalizedPath = path.startsWith("/") ? path : `/${path}`;
-  
-  return `${normalizedBase}${normalizedPath}`;
+  return normalizedBase + normalizedPath;
 }
