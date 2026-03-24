@@ -22,30 +22,30 @@ export const portfolioData = {
 
   "skills": {
     "Frontend": [
-      { "name": "HTML", "img": "skill/HTML.svg" },
-      { "name": "CSS", "img": "skill/CSS.svg" },
-      { "name": "JavaScript", "img": "skill/JavaScript.svg" },
-      { "name": "TypeScript", "img": "skill/TypeScript.svg" },
-      { "name": "React", "img": "skill/React-Light.svg" },
-      { "name": "Next.js", "img": "skill/NextJS-Light.svg" },
-      { "name": "Tailwind", "img": "skill/TailwindCSS-Light.svg" },
-      { "name": "TanStack Query", "img": "skill/TanStackQuery.svg" },
-      { "name": "Msw", "img": "skill/Msw.svg" }
+      { "name": "HTML", "img": "/skill/HTML.svg" },
+      { "name": "CSS", "img": "/skill/CSS.svg" },
+      { "name": "JavaScript", "img": "/skill/JavaScript.svg" },
+      { "name": "TypeScript", "img": "/skill/TypeScript.svg" },
+      { "name": "React", "img": "/skill/React-Light.svg" },
+      { "name": "Next.js", "img": "/skill/NextJS-Light.svg" },
+      { "name": "Tailwind", "img": "/skill/TailwindCSS-Light.svg" },
+      { "name": "TanStack Query", "img": "/skill/TanStackQuery.svg" },
+      { "name": "Msw", "img": "/skill/Msw.svg" }
     ],
     "StateManagement": [
-      { "name": "Redux", "img": "skill/Redux.svg" },
-      { "name": "Zustand", "img": "skill/Zustand.svg" }
+      { "name": "Redux", "img": "/skill/Redux.svg" },
+      { "name": "Zustand", "img": "/skill/Zustand.svg" }
     ],
     "Deployment": [
-      { "name": "AWS", "img": "skill/AWS-Light.svg" },
-      { "name": "Cloudflare", "img": "skill/Cloudflare-Light.svg" },
-      { "name": "Vercel", "img": "skill/Vercel-Light.svg" }
+      { "name": "AWS", "img": "/skill/AWS-Light.svg" },
+      { "name": "Cloudflare", "img": "/skill/Cloudflare-Light.svg" },
+      { "name": "Vercel", "img": "/skill/Vercel-Light.svg" }
     ],
     "Tools": [
-      { "name": "Git", "img": "skill/Git.svg" },
-      { "name": "Jira", "img": "skill/Jira.svg" },
-      { "name": "Postman", "img": "skill/Postman.svg" },
-      { "name": "Swagger", "img": "skill/Swagger.svg" }
+      { "name": "Git", "img": "/skill/Git.svg" },
+      { "name": "Jira", "img": "/skill/Jira.svg" },
+      { "name": "Postman", "img": "/skill/Postman.svg" },
+      { "name": "Swagger", "img": "/skill/Swagger.svg" }
     ]
   },
   "projects": [
@@ -103,18 +103,18 @@ export const portfolioData = {
       "github": "https://github.com/sdc9787/AIBE2_FinalProject_CodeHansabari_FE",
       "skills": {
         "Frontend": [
-          { "name": "Next.js", "img": "skill/NextJS-Light.svg" },
-          { "name": "TypeScript", "img": "skill/TypeScript.svg" },
-          { "name": "Tailwind", "img": "skill/TailwindCSS-Light.svg" },
-          { "name": "TanStack Query", "img": "skill/TanStackQuery.svg" },
-          { "name": "Msw", "img": "skill/Msw.svg" }
+          { "name": "Next.js", "img": "/skill/NextJS-Light.svg" },
+          { "name": "TypeScript", "img": "/skill/TypeScript.svg" },
+          { "name": "Tailwind", "img": "/skill/TailwindCSS-Light.svg" },
+          { "name": "TanStack Query", "img": "/skill/TanStackQuery.svg" },
+          { "name": "Msw", "img": "/skill/Msw.svg" }
         ],
-        "StateManagement": [{ "name": "Zustand", "img": "skill/Zustand.svg" }],
-        "Deployment": [{ "name": "Vercel", "img": "skill/Vercel-Light.svg" }],
+        "StateManagement": [{ "name": "Zustand", "img": "/skill/Zustand.svg" }],
+        "Deployment": [{ "name": "Vercel", "img": "/skill/Vercel-Light.svg" }],
         "Tools": [
-          { "name": "Git", "img": "skill/Git.svg" },
-          { "name": "Jira", "img": "skill/Jira.svg" },
-          { "name": "Swagger", "img": "skill/Swagger.svg" }
+          { "name": "Git", "img": "/skill/Git.svg" },
+          { "name": "Jira", "img": "/skill/Jira.svg" },
+          { "name": "Swagger", "img": "/skill/Swagger.svg" }
         ]
       }
     },
@@ -171,18 +171,18 @@ export const portfolioData = {
       "github": "https://github.com/CODEIT-FESI-10-5/frontend",
       "skills": {
         "Frontend": [
-          { "name": "Next.js", "img": "skill/NextJS-Light.svg" },
-          { "name": "TypeScript", "img": "skill/TypeScript.svg" },
-          { "name": "Tailwind", "img": "skill/TailwindCSS-Light.svg" },
-          { "name": "TanStack Query", "img": "skill/TanStackQuery.svg" },
-          { "name": "Msw", "img": "skill/Msw.svg" }
+          { "name": "Next.js", "img": "/skill/NextJS-Light.svg" },
+          { "name": "TypeScript", "img": "/skill/TypeScript.svg" },
+          { "name": "Tailwind", "img": "/skill/TailwindCSS-Light.svg" },
+          { "name": "TanStack Query", "img": "/skill/TanStackQuery.svg" },
+          { "name": "Msw", "img": "/skill/Msw.svg" }
         ],
-        "StateManagement": [{ "name": "Zustand", "img": "skill/Zustand.svg" }],
-        "Deployment": [{ "name": "Vercel", "img": "skill/Vercel-Light.svg" }],
+        "StateManagement": [{ "name": "Zustand", "img": "/skill/Zustand.svg" }],
+        "Deployment": [{ "name": "Vercel", "img": "/skill/Vercel-Light.svg" }],
         "Tools": [
-          { "name": "Git", "img": "skill/Git.svg" },
-          { "name": "Jira", "img": "skill/Jira.svg" },
-          { "name": "Swagger", "img": "skill/Swagger.svg" }
+          { "name": "Git", "img": "/skill/Git.svg" },
+          { "name": "Jira", "img": "/skill/Jira.svg" },
+          { "name": "Swagger", "img": "/skill/Swagger.svg" }
         ]
       }
     },
@@ -220,16 +220,16 @@ export const portfolioData = {
       "github": "https://github.com/msw-Hub/senahaza",
       "skills": {
         "Frontend": [
-          { "name": "Next.js", "img": "skill/NextJS-Light.svg" },
-          { "name": "TypeScript", "img": "skill/TypeScript.svg" },
-          { "name": "Tailwind", "img": "skill/TailwindCSS-Light.svg" }
+          { "name": "Next.js", "img": "/skill/NextJS-Light.svg" },
+          { "name": "TypeScript", "img": "/skill/TypeScript.svg" },
+          { "name": "Tailwind", "img": "/skill/TailwindCSS-Light.svg" }
         ],
-        "StateManagement": [{ "name": "Zustand", "img": "skill/Zustand.svg" }],
-        "Deployment": [{ "name": "Vercel", "img": "skill/Vercel-Light.svg" }],
+        "StateManagement": [{ "name": "Zustand", "img": "/skill/Zustand.svg" }],
+        "Deployment": [{ "name": "Vercel", "img": "/skill/Vercel-Light.svg" }],
         "Tools": [
-          { "name": "Git", "img": "skill/Git.svg" },
-          { "name": "Jira", "img": "skill/Jira.svg" },
-          { "name": "Postman", "img": "skill/Postman.svg" }
+          { "name": "Git", "img": "/skill/Git.svg" },
+          { "name": "Jira", "img": "/skill/Jira.svg" },
+          { "name": "Postman", "img": "/skill/Postman.svg" }
         ]
       }
     },
@@ -287,19 +287,19 @@ export const portfolioData = {
       "github": "https://github.com/msw-Hub/moaloa",
       "skills": {
         "Frontend": [
-          { "name": "React", "img": "skill/React-Light.svg" },
-          { "name": "TypeScript", "img": "skill/TypeScript.svg" },
-          { "name": "Tailwind", "img": "skill/TailwindCSS-Light.svg" }
+          { "name": "React", "img": "/skill/React-Light.svg" },
+          { "name": "TypeScript", "img": "/skill/TypeScript.svg" },
+          { "name": "Tailwind", "img": "/skill/TailwindCSS-Light.svg" }
         ],
-        "StateManagement": [{ "name": "Redux", "img": "skill/Redux.svg" }],
+        "StateManagement": [{ "name": "Redux", "img": "/skill/Redux.svg" }],
         "Deployment": [
-          { "name": "AWS", "img": "skill/AWS-Light.svg" },
-          { "name": "Cloudflare", "img": "skill/Cloudflare-Light.svg" }
+          { "name": "AWS", "img": "/skill/AWS-Light.svg" },
+          { "name": "Cloudflare", "img": "/skill/Cloudflare-Light.svg" }
         ],
         "Tools": [
-          { "name": "Git", "img": "skill/Git.svg" },
-          { "name": "Jira", "img": "skill/Jira.svg" },
-          { "name": "Postman", "img": "skill/Postman.svg" }
+          { "name": "Git", "img": "/skill/Git.svg" },
+          { "name": "Jira", "img": "/skill/Jira.svg" },
+          { "name": "Postman", "img": "/skill/Postman.svg" }
         ]
       }
     },
@@ -354,19 +354,19 @@ export const portfolioData = {
       "isVertical": true,
       "skills": {
         "Frontend": [
-          { "name": "React", "img": "skill/React-Light.svg" },
-          { "name": "TypeScript", "img": "skill/TypeScript.svg" },
-          { "name": "Tailwind", "img": "skill/TailwindCSS-Light.svg" },
-          { "name": "PWA", "img": "skill/PWA.svg" }
+          { "name": "React", "img": "/skill/React-Light.svg" },
+          { "name": "TypeScript", "img": "/skill/TypeScript.svg" },
+          { "name": "Tailwind", "img": "/skill/TailwindCSS-Light.svg" },
+          { "name": "PWA", "img": "/skill/PWA.svg" }
         ],
-        "StateManagement": [{ "name": "Redux", "img": "skill/Redux.svg" }],
+        "StateManagement": [{ "name": "Redux", "img": "/skill/Redux.svg" }],
         "Deployment": [
-          { "name": "AWS", "img": "skill/AWS-Light.svg" },
-          { "name": "Cloudflare", "img": "skill/Cloudflare-Light.svg" }
+          { "name": "AWS", "img": "/skill/AWS-Light.svg" },
+          { "name": "Cloudflare", "img": "/skill/Cloudflare-Light.svg" }
         ],
         "Tools": [
-          { "name": "Git", "img": "skill/Git.svg" },
-          { "name": "Postman", "img": "skill/Postman.svg" }
+          { "name": "Git", "img": "/skill/Git.svg" },
+          { "name": "Postman", "img": "/skill/Postman.svg" }
         ]
       }
     }

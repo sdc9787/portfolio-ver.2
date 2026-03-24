@@ -1,7 +1,6 @@
 import { motion } from "motion/react";
 import { portfolioData } from "@/data/portfolio";
 import Section from "./Section";
-import { resolvePath } from "@/lib/utils";
 
 export default function Skills() {
   return (
@@ -25,7 +24,7 @@ export default function Skills() {
                   <div className="w-5 h-5 flex items-center justify-center opacity-70 group-hover:opacity-100 transition-opacity">
                     {skill.img ? (
                       <img
-                        src={resolvePath(skill.img)}
+                        src={skill.img}
                         alt={skill.name}
                         className="w-full h-full object-contain"
                         referrerPolicy="no-referrer"
